@@ -2,8 +2,6 @@
 
 Easy access to benchmark datasets. Add your benchmarking desiderata and your datasets below.
 
-To add a dataset, just create a section with a description and links to download it below. How easy can you make it to get started?
-
 # benchmark for what?
 
 A discussion of the problems for which benchmark datasets would allow for experimentation.
