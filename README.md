@@ -1,6 +1,6 @@
 # easy-data
 
-Easy access to benchmark datasets.
+Easy access to benchmark datasets. Add your benchmarking desiderata and your datasets below.
 
 To add a dataset, just create a section with a description and links to download it below. How easy can you make it to get started?
 
@@ -16,6 +16,10 @@ A discussion of the problems for which benchmark datasets would allow for experi
 * measuring the variability in biological claims (like which genes are differentially expressed between populations) to be expected between different studies of the same cell types
 
 # datasets
+
+To add a dataset, just create a section with a description and links to download it.
+
+How easy can you make it for someone to get started?
 
 ## `tabula muris`
 
