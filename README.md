@@ -4,6 +4,19 @@ Easy access to benchmark datasets.
 
 To add a dataset, just create a section with a description and links to download it below. How easy can you make it to get started?
 
+# Benchmark for what?
+
+A discussion of the problems for which benchmark datasets would allow for experimentation.
+
+* cell type annotation and reannotation at various levels of ontological depth
+* building and validating cell type classifiers
+* manifold alignment and batch-effect-aware analyses
+* assessing the variability in gene expression of cell types present in many organs
+* measuring sex differences in gene expression
+* measuring the variability in biological claims (like which genes are differentially expressed between populations) to be expected between different studies of the same cell types
+
+# Datasets
+
 ## Tabula Muris
 
 [Tabula Muris](http://tabula-muris.ds.czbiohub.org/) contains about 100,000 cells from 20 organs and tissues in mouse. The study is sex-balanced, with four male and four female mice. The organs included are skin, fat, mammary gland, heart, bladder, brain, thymus, spleen, kidney, limb muscle, tongue, marrow, trachea, pancreas, lung, large intestine, and liver. Many of these organs were processed using two methods: SMART-seq2 on FACS-sorted cells and microfluidic droplets from 10X Genomics.
