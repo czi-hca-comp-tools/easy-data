@@ -2,7 +2,7 @@
 
 Easy access to a small collection of benchmark datasets for methods development, focused on supporting projects at the hca-comp-tools workshop. Add your benchmarking desiderata and your datasets below.
 
-# benchmark for what?
+## benchmark for what?
 
 A discussion of the problems for which benchmark datasets would allow for experimentation.
 
@@ -12,6 +12,14 @@ A discussion of the problems for which benchmark datasets would allow for experi
 * assessing the variability in gene expression of cell types present in many organs
 * measuring sex differences in gene expression
 * measuring the variability in biological claims (like which genes are differentially expressed between populations) to be expected between different studies of the same cell types
+
+## There are several sources of public datasets.  The question is, what should be the characteristics of a benchmark dataset?
+At the most basic level, it should be very easy to access (e.g. free/open, in data formats that people use, easy to access).  Then there are different requirements depending on what is being benchmarked, such as:
+* clustering would want to see a mix of easy and difficult to cluster data.
+* portals would want a mix of small and large data sets to test development (quick test with small data) and scalability (test with large data)
+* for manifold alignment, datasets that have batch effect artifacts
+* trajectories would want data that actually contains trajectories e.g. developmental biology data, including time series data (e.g. https://www.ncbi.nlm.nih.gov/pubmed/29281841)
+* control perturbations from well known experimental conditions are also helpful for benchmarking
 
 # datasets
 
