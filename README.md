@@ -1,6 +1,6 @@
 # easy-data
 
-Easy access to benchmark datasets. Add your benchmarking desiderata and your datasets below.
+Easy access to a small collection of benchmark datasets for methods development, focused on supporting projects at the hca-comp-tools workshop. Add your benchmarking desiderata and your datasets below.
 
 # benchmark for what?
 
