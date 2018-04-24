@@ -4,7 +4,7 @@ Easy access to benchmark datasets.
 
 To add a dataset, just create a section with a description and links to download it below. How easy can you make it to get started?
 
-# Benchmark for what?
+# benchmark for what?
 
 A discussion of the problems for which benchmark datasets would allow for experimentation.
 
@@ -15,15 +15,15 @@ A discussion of the problems for which benchmark datasets would allow for experi
 * measuring sex differences in gene expression
 * measuring the variability in biological claims (like which genes are differentially expressed between populations) to be expected between different studies of the same cell types
 
-# Datasets
+# datasets
 
-## Tabula Muris
+## `tabula muris`
 
 [Tabula Muris](http://tabula-muris.ds.czbiohub.org/) contains about 100,000 cells from 20 organs and tissues in mouse. The study is sex-balanced, with four male and four female mice. The organs included are skin, fat, mammary gland, heart, bladder, brain, thymus, spleen, kidney, limb muscle, tongue, marrow, trachea, pancreas, lung, large intestine, and liver. Many of these organs were processed using two methods: SMART-seq2 on FACS-sorted cells and microfluidic droplets from 10X Genomics.
 
 Below are instructions for getting four files: metadata (including annotations) and count data for each dataset.
 
-### Metadata
+### metadata
 
 Version-controlled metadata are available on  [github](https://github.com/czbiohub/tabula-muris-vignettes/tree/master/data).
 
@@ -31,7 +31,7 @@ Version-controlled metadata are available on  [github](https://github.com/czbioh
 
 [TM_facs_metadata.csv](https://github.com/czbiohub/tabula-muris-vignettes/blob/master/data/TM_facs_metadata.csv?raw=true)
 
-### Count files for R
+### count files for R
 
 You can download complete count files as sparse matrices in `.rds` format for easy loading into `R`. Unzip [TabulaMuris.zip](https://s3.amazonaws.com/czbiohub-tabula-muris/TabulaMuris.zip). Load:
 
@@ -40,7 +40,7 @@ tm.droplet.matrix = readRDS(here("data", "TM_droplet_mat.rds"))
 tm.droplet.metadata = read_csv(here("data", "TM_droplet_metadata.csv"))
 ```
 
-### Count files for Python
+### count files for Python
 
 You can download complete count files as sparse matrices in [AnnData](http://anndata.readthedocs.io/en/latest/)-formatted h5ad files for use in Python [here](https://s3.amazonaws.com/czbiohub-tabula-muris/TabulaMuris.h5ad.zip). You can load them using the [Scanpy](http://scanpy.readthedocs.io/en/latest/index.html) library:
 
