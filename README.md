@@ -78,6 +78,8 @@ Data:
     wget http://cells.ucsc.edu/aparna/geneMatrix.tsv.gz
     wget http://cells.ucsc.edu/aparna/meta.tsv
 
+Matrix is log'ed counts from HiSat2.
+
 Browser:
 
     http://cells.ucsc.edu
