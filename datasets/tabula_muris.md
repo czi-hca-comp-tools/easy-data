@@ -17,8 +17,8 @@ Version-controlled metadata are available on  [github](https://github.com/czbioh
 You can download complete count files as sparse matrices in `.rds` format for easy loading into `R`. Unzip [TabulaMuris.zip](https://s3.amazonaws.com/czbiohub-tabula-muris/TabulaMuris.zip). Load:
 
 ```R
-tm.droplet.matrix = readRDS(here("data", "TM_droplet_mat.rds"))
-tm.droplet.metadata = read_csv(here("data", "TM_droplet_metadata.csv"))
+tm.droplet.matrix = readRDS("TM_droplet_mat.rds")
+tm.droplet.metadata = read_csv("TM_droplet_metadata.csv")
 ```
 
 ## Count files for Python
