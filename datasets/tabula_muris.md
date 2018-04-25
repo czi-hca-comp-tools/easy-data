@@ -23,14 +23,14 @@ tm.droplet.metadata = read_csv("TM_droplet_metadata.csv")
 
 ## Count files for Python
 
-You can download complete count files as sparse matrices in [AnnData](http://anndata.readthedocs.io/en/latest/)-formatted h5ad files for use in Python [here](https://s3.amazonaws.com/czbiohub-tabula-muris/TabulaMuris.h5ad.zip). You can load them using the [Scanpy](http://scanpy.readthedocs.io/en/latest/index.html) library:
+You can download complete count files as sparse matrices using [anndata's](http://anndata.readthedocs.io) `h5ad` file format  for use in Python [here](https://s3.amazonaws.com/czbiohub-tabula-muris/TabulaMuris.h5ad.zip). You can process the resulting `AnnData` object using, for instance, [Scanpy](http://scanpy.readthedocs.io).
 
 ```python
-import pandas
-import scanpy
+import pandas as pd
+from anndata import read_h5ad
 
 tm_facs_metadata = pd.read_csv('data/TM_facs_metadata.csv')
-tm_facs_data = scanpy.anndata.read_h5ad('data/TM_facs_mat.h5ad').transpose()
+tm_facs_data = read_h5ad('data/TM_facs_mat.h5ad').T
 ```
 ## CSV and MTX files
 
