@@ -2,7 +2,7 @@
 
 10x single cell RNA-seq data from the developing mouse retina
 
-<img src="img/Age.gif" width="300"/>
+<img src="https://github.com/gofflab/developing_mouse_retina_scRNASeq/blob/master/img/Age.gif" width="300"/>
 <img src="img/CellType.gif" width="500"/>
 
 ## Use agreement
