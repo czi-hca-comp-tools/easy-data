@@ -2,6 +2,8 @@
 
 [Tabula Muris](http://tabula-muris.ds.czbiohub.org/) contains about 100,000 cells from 20 organs and tissues in mouse. The study is sex-balanced, with four male and four female mice. The organs included are skin, fat, mammary gland, heart, bladder, brain, thymus, spleen, kidney, limb muscle, tongue, marrow, trachea, pancreas, lung, large intestine, and liver. Many of these organs were processed using two methods: SMART-seq2 on FACS-sorted cells and microfluidic droplets from 10X Genomics.
 
+Preprint [here](https://www.biorxiv.org/content/early/2018/03/29/237446).
+
 Below are instructions for getting four files: metadata (including annotations) and count data for each dataset.
 
 ## Metadata
