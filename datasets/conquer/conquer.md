@@ -4,3 +4,12 @@
  
  This data was aggregated for use in: [Bias, robustness and scalability in single-cell differential expression analysis](https://www.nature.com/articles/nmeth.4612).
  
+Once you've downloaded the datasets, you can pretty easily load them into R:
+
+```r
+library(MultiAssayExperiment)
+library(SummarizedExperiment)
+data <- loadRDS("{dataset}.rds")
+```
+
+For a more extensive example, see the tutorial section on the conquer site.
