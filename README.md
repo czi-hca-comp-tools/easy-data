@@ -18,7 +18,7 @@ At the most basic level, it should be very easy to access (e.g. free/open, in da
 * clustering would want to see a mix of easy and difficult to cluster data.
 * portals would want a mix of small and large data sets to test development (quick test with small data) and scalability (test with large data)
 * for manifold alignment, datasets that have batch effect artifacts
-* trajectories would want data that actually contains trajectories e.g. developmental biology data, including time series data (e.g. https://www.ncbi.nlm.nih.gov/pubmed/29281841)
+* trajectories would want data that actually contains trajectories e.g. developmental biology data, including time series data
 * control perturbations from well known experimental conditions are also helpful for benchmarking
 
 # datasets
