@@ -65,6 +65,9 @@ tm_facs_data = scanpy.anndata.read_h5ad('data/TM_facs_mat.h5ad')
 
 The original data release is on [FigShare](https://figshare.com/projects/Tabula_Muris_Transcriptomic_characterization_of_20_organs_and_tissues_from_Mus_musculus_at_single_cell_resolution/27733).
 
+## `conquer`
+
+Mark Robinson and Charlotte Soneson have created the great [`conquer`](http://imlspenticton.uzh.ch:3838/conquer/) dataset, which has `MultiAssayExperiments` for about 38 single cell experiments with count level and consistently normalized data plus QC reports. [Here's a gist](https://gist.github.com/ivirshup/131a56175503a2408f814874925c19f9) which contains a python script (and conda requirements file) to pull down all those datasets.
 
 ## Software Packages
 
