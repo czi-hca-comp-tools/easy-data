@@ -4,8 +4,17 @@ Easy access to a small collection of benchmark datasets for methods development.
 
 # Instructions
 
-Instructions for downloading and loading each dataset are in text files in the `datasets` folder.
 
-For example, Tabula Muris is described in [datasets/tabula_muris.md](datasets/tabula_muris.md).
+<p align="center">
+	<a href="benchmarks.md">Why do we need data benchmarks?</a>&nbsp;&nbsp;&nbsp;
+	<a href="contributing.md">Contribution guide</a>&nbsp;&nbsp;&nbsp;
+</p>
 
-If you would like to add a dataset, follow the instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
+## Contents
+
+- [Multiomics](multiomics.md)
+- [Datasets](datasets/README.md)
+
+
+
+
