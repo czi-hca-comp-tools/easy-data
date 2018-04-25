@@ -1,17 +1,12 @@
 # easy-data
 
-Easy access to a small collection of benchmark datasets for methods development, focused on supporting projects at the hca-comp-tools workshop. Add your benchmarking desiderata and your datasets below.
+Easy access to a small collection of benchmark datasets for methods development.
 
-## benchmark for what?
+# Instructions
 
-A discussion of the problems for which benchmark datasets would allow for experimentation.
+Instructions for downloading and loading each dataset are in text files in the `datasets` folder.
 
-* cell type annotation and reannotation at various levels of ontological depth
-* building and validating cell type classifiers
-* manifold alignment and batch-effect-aware analyses
-* assessing the variability in gene expression of cell types present in many organs
-* measuring sex differences in gene expression
-* measuring the variability in biological claims (like which genes are differentially expressed between populations) to be expected between different studies of the same cell types
+For example, Tabula Muris is described in [datasets/tabula_muris.md](datasets/tabula_muris.md).
 
 ## There are several sources of public datasets.  The question is, what should be the characteristics of a benchmark dataset?
 At the most basic level, it should be very easy to access (e.g. free/open, in data formats that people use, easy to access).  Then there are different requirements depending on what is being benchmarked, such as:
@@ -79,6 +74,9 @@ Data:
     wget http://cells.ucsc.edu/aparna/meta.tsv
 
 Matrix is log'ed counts from HiSat2.
+Meta data includes clustername, age, patient ID.
+
+Original FASTQ files are in dbGAP https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000989.v3.p1&phv=253214&phd=&pha=&pht=5022&phvf=&phdf=&phaf=&phtf=&dssp=1&consent=&temp=1
 
 Browser:
 
@@ -88,3 +86,6 @@ Browser:
 
 - [CellBench](https://github.com/LuyiTian/CellBench_data)
 - [IA-SVA](https://github.com/UcarLab/IA-SVA)
+
+If you would like to add a dataset, follow the instructions in [CONTRIBUTING.md](CONTRIBUTING.md).
+
