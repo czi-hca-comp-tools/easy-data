@@ -65,6 +65,22 @@ tm_facs_data = scanpy.anndata.read_h5ad('data/TM_facs_mat.h5ad')
 
 The original data release is on [FigShare](https://figshare.com/projects/Tabula_Muris_Transcriptomic_characterization_of_20_organs_and_tissues_from_Mus_musculus_at_single_cell_resolution/27733).
 
+## Developing human cortex data
+
+Contact point in HCA: Max Haeussler, Jim Kent (UCSC), data produced/analyzed by Tom Nowakowski, Aparna Bhaduri (UCSF)
+
+~4200 cells (after QC, total cells was ~7600) with Fluidigm C1, so relatively high coverage reads.
+
+Paper: [Nowakowski et al 2018)](http://science.sciencemag.org/content/358/6368/1318.long)
+
+Data:
+
+    wget http://cells.ucsc.edu/aparna/geneMatrix.tsv.gz
+    wget http://cells.ucsc.edu/aparna/meta.tsv
+
+Browser:
+
+    http://cells.ucsc.edu
 
 ## Software Packages
 
