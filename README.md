@@ -23,8 +23,7 @@ Instructions for downloading and loading each dataset are in text files in the `
 
 - [Loyale Developing mouse retina](datasets/developing_mouse_retina.md) - 10x single cell RNA-seq data from the developing mouse retina. [Code repo](https://github.com/gofflab/developing_mouse_retina_scRNASeq) | [Download instructions](datasets/developing_mouse_retina.md) #retina #mouse #umi #10x #droplet
 - [Tabula Muris](datasets/tabula_muris.md) - 20 different mouse organs, both full transcript (SmartSeq2) and UMI-based droplet counting (10x Genomics). [Code repo](https://github.com/czbiohub/tabula-muris) | [Vignette repo](https://github.com/czbiohub/tabula-muris-vignettes) | [Interactive website](http://tabula-muris.ds.czbiohub.org/) | [Download instructions](datasets/tabula_muris.md) #mouse #aorta #bladder #brain #diaphragm #fat #heart #kidney #large_intestine #muscle #liver #lung #mammary_gland #marrow #pancreas #skin #spleen #thymus #tongue #rnaseq #smartseq2 #10x #umi #droplet
-
-
+- [Human cortex development](datasets/ucsc_human_cortex.md) - 4000 SmartSeq2 cells from different locations of the developing human fetus
 
 ### Imaging
 
