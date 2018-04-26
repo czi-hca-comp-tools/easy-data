@@ -2,11 +2,19 @@
 
 10x single cell RNA-seq data from the developing mouse retina
 
+Developed as a joint project between the following labs:
+Loyal Goff - [www.gofflab.org](http://www.gofflab.org/)
+Seth Blackshaw - [Blackshaw Lab](http://neuroscience.jhu.edu/research/faculty/7)
+Elana Fertig - [https://fertiglab.com/](https://fertiglab.com/)
+
+Primary contact for dataset:
+Loyal Goff [loyalgoff@jhmi.edu](mailto://loyalgoff@jhmi.edu)
+
 <img src="https://github.com/gofflab/developing_mouse_retina_scRNASeq/blob/master/img/Age.gif" width="300"/>
 <img src="https://github.com/gofflab/developing_mouse_retina_scRNASeq/blob/master/img/CellType.gif" width="400"/>
 
 ## Use agreement
-Although these data are being made publicly available as part of the [CZI Computational Tools](meetings.czi.technology/human-cell-atlas/) working group, the producers consider these data as unpublished and expect that the data will be used in accord with standard scientific etiquette and practices concerning unpublished data. Researchers are encouraged to use these data exclusively for the development of novel methods to analyze scRNA-Seq related to cell-cell variation, trajectory analysis and cell type identification/characterization. Use of these data for other purposes requires the explicit consent of the creators prior to an embargo date of July 1st, 2018.
+Although these data are being made publicly available as part of the [CZI Computational Tools](meetings.czi.technology/human-cell-atlas/) working group, the producers consider these data as unpublished and expect that the data will be used in accord with standard scientific etiquette and practices concerning unpublished data. Researchers are encouraged to use these data exclusively for the development of novel methods to analyze scRNA-Seq related to cell-cell variation, trajectory analysis and cell type identification/characterization. Use of these data for other purposes requires the explicit consent of the creators prior to an embargo date of July 1st, 2018 or the public release of the associated preprint.
 
 ## Stats
 
@@ -29,7 +37,7 @@ The count matrix is provided in .mtx format and can be downloaded here:
 [10x_mouse_retina_development.mtx](https://www.dropbox.com/s/6d76z4grcnaxgcg/10x_mouse_retina_development.mtx?dl=0)
 
 ## Cellular Phenotype Data
-[10x_mouse_retina_development_phenoData.csv](https://www.dropbox.com/s/q0m4co24soo50ma/10x_mouse_retina_development_phenoData.csv?dl=0)
+[10x_mouse_retina_development_phenotype.csv](https://www.dropbox.com/s/y5lho9ifzoktjcs/10x_mouse_retina_development_phenotype.csv?dl=0)
 
 |                       |barcode                |sample |age | Size_Factor| num_genes_expressed| Total_mRNAs|CellType       | raw_cluster| umap_cluster| umap_coord1| umap_coord2| umap_coord3|umap_CellType |used_for_pseudotime |
 |:----------------------|:----------------------|:------|:---|-----------:|-------------------:|-----------:|:--------------|-----------:|------------:|-----------:|-----------:|-----------:|:-------------|:-------------------|
@@ -41,7 +49,7 @@ The count matrix is provided in .mtx format and can be downloaded here:
 |E11.AAACCTGCACCCATTC.1 |E11.AAACCTGCACCCATTC-1 |E11    |E11 |    2.280553|                1806|        3676|RPCs           |          32|          109|    3.386985|   -3.678844|   -2.939268|Early RPCs    |TRUE                |
 
 ## Feature Data 
-[10x_mouse_retina_development_featureData.csv](https://www.dropbox.com/s/5nv0u34h8ej70qo/10x_mouse_retina_development_featureData.csv?dl=0)
+[10x_mouse_retina_development_feature.csv](https://www.dropbox.com/s/1mc4geu3hixrxhj/10x_mouse_retina_development_feature.csv?dl=0)
 
 |                   |id                 |gene_short_name | num_cells_expressed| mean_expr|    sd_exprs|         bcv| percent_detection|
 |:------------------|:------------------|:---------------|-------------------:|---------:|-----------:|-----------:|-----------------:|
