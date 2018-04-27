@@ -26,6 +26,7 @@ Instructions for downloading and loading each dataset are in text files in the `
 - [Human cortex development](datasets/ucsc_human_cortex.md) - 4000 SmartSeq2 cells from different locations of the developing human fetus.
 - [Conquer](datasets/conquer.md) - [38 datasets](http://imlspenticton.uzh.ch:3838/conquer/) summarized to a count level available as `R` `MultiAssayExperiment` objects.
 - [CellBench pilot data set](https://github.com/LuyiTian/CellBench_data/blob/master/cellbench.md) - mixture data set from 3 human lung adenocarcinoma cell lines (HCC827, H1975 and H2228) across different platforms.
+- [EBI Single Cell Expression Atlas pre-release analyses](datasets/gxa_prerelease_datasets.md) - 6 Smart-seq2-derived matrices, TPMs in .mtx format.
 
 ### Imaging
 
