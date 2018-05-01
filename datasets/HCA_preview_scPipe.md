@@ -1,20 +1,19 @@
 # HCA_Previewdata
-stores the [preview data](https://github.com/LuyiTian/HCA_Previewdata) and initial analysis script, data was processed by scPipe.
+Mixture data set from 3 human lung adenocarcinoma cell lines (HCC827, H1975 and H2228) across different platforms: celseq2, dropseq, and 10x.
 
-data was downloaded from [HCA data portal](https://preview.data.humancellatlas.org/)
+Data was downloaded from [HCA data portal](https://preview.data.humancellatlas.org/) and processed in [this repo](https://github.com/LuyiTian/HCA_Previewdata) using scPipe.
 
 ## Metadata
 
-metadata is stored in [HCA data portal](https://preview.data.humancellatlas.org/) and can be downloaded.
+Metadata is stored in [HCA data portal](https://preview.data.humancellatlas.org/) and can be downloaded directly [here](https://preview.data.humancellatlas.org/datasets/melanoma/hca-metadata-melanoma.xlsx).
 
 ## Count files for R
 
-You can find SingleCellExperiment object for the dataset, either the raw data (`ischaemic_sensitivity_raw.RData`) or processed data (`ischaemic_sensitivity_QC_norm.RData`) after quality control and normalization in `rdata` folder
+You can find SingleCellExperiment object for the dataset, either the [raw data](https://github.com/LuyiTian/HCA_Previewdata/blob/master/rdata/ischaemic_sensitivity_raw.RData?raw=true) or [processed data](https://github.com/LuyiTian/HCA_Previewdata/blob/master/rdata/ischaemic_sensitivity_QC_norm.RData) after quality control and normalization are in the `rdata` folder.
 
-## data exploration analysis
+## Exploratory data analysis
 
 Rmd document can be found in `script` folder.
-
 
 ## CSV and MTX files
 
