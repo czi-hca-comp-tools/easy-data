@@ -8,7 +8,7 @@ Below are instructions for getting four files: metadata (including annotations) 
 
 ## Metadata
 
-You can download the metadata file from here (thanks @bioeauty):
+You can download the metadata file from here (thanks to Guo's lab):
 [MCA-cell-ann.csv](https://github.com/czi-hca-comp-tools/easy-data/blob/MCA/datasets/mouse-cell-atlas/MCA-cell-ann.csv)
 
 ## Count files for R
