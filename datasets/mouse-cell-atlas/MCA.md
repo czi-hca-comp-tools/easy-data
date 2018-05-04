@@ -13,12 +13,14 @@ You can download the metadata file from here (thanks to Guo's lab):
 
 ## Count files for R
 
-As a courtesy of [Satija lab](http://satijalab.org/seurat/mca.html) you can download complete count files as a sparse matrice in `.rds` format for easy loading into `R`. Unzip [MCA.zip](https://www.dropbox.com/s/8d8t4od38oojs6i/MCA.zip?dl=1) and load:
+As a courtesy of [Satija lab](http://satijalab.org/seurat/mca.html) you can download complete count files as a sparse matrice in `.rds` format for easy loading into `R`. 
+
+Unzip [MCA.zip](https://www.dropbox.com/s/8d8t4od38oojs6i/MCA.zip?dl=1) and copy the `MCA-cell-ann.csv` into the folder. Either move the entire folder to your working directory in R or make sure to point R to right place and then run:
 
 ```R
 library(Matrix)
 library(Seurat)
 
-mca.matrix <- readRDS(file = "~/Downloads/MCA/MCA_merged_mat.rds")
-mca.metadata <- read.csv("~/Downloads/MCA/MCA_All-batch-removed-assignments.csv", row.names = 1)
+microwell.matrix = readRDS(here("MCA", "MCA_merged_mat.rds"))
+microwell.metadata = read_csv(here("MCA", "cell-ann.csv"))
 ```
