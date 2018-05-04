@@ -23,4 +23,7 @@ library(Seurat)
 
 microwell.matrix = readRDS(here("MCA", "MCA_merged_mat.rds"))
 microwell.metadata = read_csv(here("MCA", "cell-ann.csv"))
+
+microwell.matrix <- microwell.matrix[,colnames(microwell.matrix) %in% microwell.metadata$Cell.name]
+microwell.metadata <- microwell.metadata[microwell.metadata$Cell.name %in% colnames(microwell.matrix),]
 ```
