@@ -1,6 +1,6 @@
 # MCA (mouse cell atlas)
 
-[MCA](http://tabula-muris.ds.czbiohub.org/) contains about 300,000 cells from major mouse organs sequenced using the microwell-seq platform.
+[MCA](http://bis.zju.edu.cn/MCA/) contains about 300,000 cells from major mouse organs sequenced using the microwell-seq platform.
 
 The study is published [here](https://www.cell.com/cell/abstract/S0092-8674(18)30116-8).
 
