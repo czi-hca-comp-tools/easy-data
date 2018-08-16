@@ -16,7 +16,7 @@ Version-controlled metadata are available on  [github](https://github.com/czbioh
 
 ## Count files for R
 
-You can download complete count files as sparse matrices in `.rds` format for easy loading into `R`. Unzip [TabulaMuris.zip](https://s3.amazonaws.com/czbiohub-tabula-muris/TabulaMuris.zip). Load:
+You can download complete count files as sparse matrices in `.rds` format for easy loading into `R`. Download [TM_facs_mat.rds](https://s3.amazonaws.com/czbiohub-tabula-muris/TM_facs_mat.rds) and [TM_droplet_mat.rds](https://s3.amazonaws.com/czbiohub-tabula-muris/TM_droplet_mat.rds). Load:
 
 ```R
 library(tidyverse)
@@ -27,14 +27,14 @@ tm.droplet.metadata = read_csv("TM_droplet_metadata.csv")
 
 ## Count files for Python
 
-You can download complete count files as sparse matrices using [anndata's](http://anndata.readthedocs.io) `h5ad` file format  for use in Python [here](https://s3.amazonaws.com/czbiohub-tabula-muris/TabulaMuris.h5ad.zip). You can process the resulting `AnnData` object using, for instance, [Scanpy](http://scanpy.readthedocs.io).
+You can download complete count files as sparse matrices using [anndata's](http://anndata.readthedocs.io) `h5ad` file format  for use in Python [here](https://s3.amazonaws.com/czbiohub-tabula-muris/TM_droplet_mat.h5ad) and [here](https://s3.amazonaws.com/czbiohub-tabula-muris/TM_facs_mat.h5ad). You can process the resulting `AnnData` object using, for instance, [Scanpy](http://scanpy.readthedocs.io).
 
 ```python
 import pandas as pd
 from anndata import read_h5ad
 
 tm_facs_metadata = pd.read_csv('data/TM_facs_metadata.csv')
-tm_facs_data = read_h5ad('data/TM_facs_mat.h5ad').T
+tm_facs_data = read_h5ad('data/TM_facs_mat.h5ad')
 ```
 ## CSV and MTX files
 
