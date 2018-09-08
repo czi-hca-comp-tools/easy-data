@@ -25,7 +25,8 @@ Instructions for downloading and loading each dataset are in text files in the `
 - [Tabula Muris](datasets/tabula_muris.md) - 20 different mouse organs, both full transcript (SmartSeq2) and UMI-based droplet counting (10x Genomics). [Code repo](https://github.com/czbiohub/tabula-muris) | [Vignette repo](https://github.com/czbiohub/tabula-muris-vignettes) | [Interactive website](http://tabula-muris.ds.czbiohub.org/) | [Download instructions](datasets/tabula_muris.md) #mouse #aorta #bladder #brain #diaphragm #fat #heart #kidney #large_intestine #muscle #liver #lung #mammary_gland #marrow #pancreas #skin #spleen #thymus #tongue #rnaseq #smartseq2 #10x #umi #droplet
 - [Human cortex development](datasets/ucsc_human_cortex.md) - 4000 SmartSeq2 cells from different locations of the developing human fetus.
 - [Conquer](datasets/conquer.md) - [38 datasets](http://imlspenticton.uzh.ch:3838/conquer/) summarized to a count level available as `R` `MultiAssayExperiment` objects.
-- [CellBench pilot data set](https://github.com/LuyiTian/CellBench_data/blob/master/cellbench.md) - mixture data set from 3 human lung adenocarcinoma cell lines (HCC827, H1975 and H2228) across different platforms.
+- [CellBench pilot data set](https://github.com/LuyiTian/CellBench_data/blob/master/cellbench.md) - mixture data set from 3 human lung adenocarcinoma cell lines (HCC827, H1975 and H2228) across different platforms. #benchmark #celseq2 #dropseq #10x #cellline
+- [HCA preview dataset gene counting matrix](datasets/HCA_preview_scPipe.md) - HCA preview data gene counting matrix. The gene counting matrix was generated from fastq by [scPipe](https://bioconductor.org/packages/release/bioc/html/scPipe.html). #hca #scPipe
 
 ### Imaging
 
